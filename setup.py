@@ -732,7 +732,7 @@ else:
             # pcl 1.9.1
             # build install?
             vtk_version = '8.1'
-            vtk_include_dir = os.path.join('/usr/local/include/vtk-' + vtk_version)
+            vtk_include_dir = os.path.join('/usr/include/vtk-' + vtk_version)
             vtk_library_dir = os.path.join('/usr/lib')
         else:
             pass
